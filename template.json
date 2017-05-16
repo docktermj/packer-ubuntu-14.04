@@ -28,6 +28,7 @@
   "post-processors": [
     {
       "type": "vagrant",
+      "keep_input_artifact": true,
       "override": {
         "virtualbox": {
           "output": "ubuntu-14-04-x64-virtualbox.box"
